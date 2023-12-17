@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/luxuryBlue"
+    tools:context=".registration">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="farmacia del futuro"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="We care about you"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="195dp"
+        android:layout_height="182dp"
+
+        app:srcCompat="@drawable/ellipse_2"
+        tools:layout_editor_absoluteX="105dp"
+        app:layout_editor_absoluteY="95dp"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/edittext4"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="Username"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:background="@drawable/edittext_corners"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <EditText
+        android:id="@+id/edittext5"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="password"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:background="@drawable/edittext_corners"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54" />
+
+    <EditText
+        android:id="@+id/edittext7"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="confirm password"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:background="@drawable/edittext_corners"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <EditText
+        android:id="@+id/edittext10"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="address"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:background="@drawable/edittext_corners"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74"
+        />
+
+    <EditText
+        android:id="@+id/edittext11"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="birth year"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:background="@drawable/edittext_corners"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:text="ENG"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="650dp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_corners"
+        android:text="Login"
+        android:textColor="@color/luxuryBlue"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:text="Already have an account? Login Now"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icon"
+        tools:layout_editor_absoluteY="510dp"
+        tools:layout_editor_absoluteX="310dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vector"
+        tools:layout_editor_absoluteY="580dp"
+        tools:layout_editor_absoluteX="310dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
